@@ -144,9 +144,9 @@ unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F0
             <!-- Logo -->
             <div id="logo" class="flex-col logo">
                 <!-- Header logo -->
-                <a href="indext.html" title="yensao" rel="home">
-                    <img width="280" height="67" src="img/logo.png" class="header_logo header-logo"
-                        alt="yensao" /><img width="280" height="67" src="img/logo.png"
+                <a href="index.html" title="yensao" rel="home">
+                    <img width="280" height="67" src="img/logo2.png" class="header_logo header-logo"
+                        alt="yensao" /><img width="280" height="67" src="img/logo2.png"
                         class="header-logo-dark" alt="yensao" /></a>
             </div>
 
@@ -157,7 +157,7 @@ unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F0
                     class="header-nav header-nav-main nav nav-left  nav-divided nav-size-large nav-spacing-large nav-uppercase">
                     <li id="menu-item-951"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-163 current_page_item menu-item-951 active menu-item-design-default">
-                        <a href="indext.html" aria-current="page" class="nav-top-link">Trang chủ</a>
+                        <a href="index.html" aria-current="page" class="nav-top-link">Trang chủ</a>
                     </li>
                     <li id="menu-item-958"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958 menu-item-design-default">
@@ -191,7 +191,7 @@ unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F0
             <div id="mobile-menu" class="mobile-sidebar">
                 <div class="sidebar-wrapper">
                     <ul class="nav-mobile">
-                        <li><a href="indext.html">Trang chủ</a></li>
+                        <li><a href="index.html">Trang chủ</a></li>
                         <li><a href="info.html">Giới thiệu</a></li>
                         <li><a href="category.html">Sản phẩm</a></li>
                         <li><a href="news.html">Tin tức</a></li>
@@ -293,6 +293,24 @@ unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F0
                 });
 
             </script>
+            <!-- bật màu giỏ  -->
+                <style>
+                    /* Màu trắng cho icon giỏ hàng */
+                    .header-cart-link i {
+                        color: #fff !important;
+                    }
+
+                    /* Màu trắng cho phần chữ Giỏ hàng */
+                    .header-cart-title {
+                        color: #fff !important;
+                    }
+
+                    /* Màu trắng cho giá trị 0₫ */
+                    .header-cart-title .woocommerce-Price-amount,
+                    .header-cart-title .woocommerce-Price-currencySymbol {
+                        color: #fff !important;
+                    }
+                </style>
             <!-- giỏ hang -->
             <!-- Right Elements -->
             <div class="flex-col hide-for-medium flex-right">
@@ -342,7 +360,7 @@ unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F0
 	<div class="page-title-inner flex-row  medium-flex-wrap container">
 	  <div class="flex-col flex-grow medium-text-center">
 	  	<div class="is-large">
-	<nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="indext.html">Trang chủ</a> <span class="divider">&#47;</span> Cửa hàng</nav></div>
+	<nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="index.html">Trang chủ</a> <span class="divider">&#47;</span> Cửa hàng</nav></div>
 <div class="category-filtering category-filter-row show-for-medium">
 	<a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" class="filter-button uppercase plain">
 		<i class="icon-equalizer"></i>
@@ -537,62 +555,76 @@ unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F0
 }
 </style>
 
-<footer id="footer" class="footer-wrapper">
-        <!-- FOOTER 1 -->
-        <div class="footer-widgets footer footer-1">
-                <div class="row dark large-columns-3 mb-0">
-                        <div id="text-2" class="col pb-0 widget widget_text"><span class="widget-title">HAPANEST</span>
-                                <div class="is-divider small"></div>
-                                <!-- <div class="textwidget">
-                                        <p>Chúng tôi chuyên:</p>
-                                        <p>+ Tư vấn &#8211; Thiết kế &#8211; Xây dựng nhà nuôi chin Yến</p>
-                                        <p>+ Cung cấp thiết bị cho nhà Yến</p>
-                                        <p>+ Bảo trì nhà nuôi Yến</p>
-                                        <p>+ Cung cấp tổ Yến Sào chất lượng cao</p>
-                                        <p>+ Dịch vụ bất động sản nhà Yến</p>
-                                </div> -->
-                        </div>
-                        <div id="text-3" class="col pb-0 widget widget_text"><span class="widget-title">THÔNG TIN LIÊN
-                                        HỆ</span>
-                                <div class="is-divider small"></div>
-                                <!-- <div class="textwidget">
-                                        <p><i class="fa fa-building-o" aria-hidden="true"></i> Công ty TNHH Tổ yến đảo Hồ Chí Minh
-                                        </p>
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> 285 Phạm Văn Bạch, P. 15, Q. Tân
-                                                Bình, Tp. HCM</p>
-                                        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> Email: email@gmail.com</p>
-                                        <p><i class="fa fa-phone" aria-hidden="true"></i> Điện thoại: 0999.999.999</p>
-                                        <p><i class="fa fa-mobile" aria-hidden="true"></i> Hotline: 0999.999.999</p>
-                                </div> -->
-                        </div>
-                        <div id="text-4" class="col pb-0 widget widget_text"><span class="widget-title">FANPAGE
-                                        FACEBOOK</span>
-                                <div class="is-divider small"></div>
-                                <!-- <div class="textwidget">
-                                        <p>
-                                                <script>(function (d, s, id) {
-                                                                var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6&appId=1058228637573834"; fjs.parentNode.insertBefore(js, fjs);
-                                                        }(document, 'script', 'facebook-jssdk'));</script>
-                                        </p>
-                                        <div class="fb-page" data-href="fb.com/facebook" data-width="340" data-hide-cover="false"
-                                                data-show-facepile="true"></div>
-                                </div> -->
-                        </div>
-                </div>
-        </div>
+       <footer id="footer" class="footer-wrapper">
 
-        <!-- FOOTER 2 -->
-        <div class="absolute-footer dark medium-text-center small-text-center">
-                <div class="container clearfix">
-                        <div class="footer-primary pull-left">
-                                <div class="copyright-footer">
-                                        © Bản quyền </div>
-                        </div>
+    <!-- FOOTER 1 -->
+    <div class="footer-widgets footer footer-1">
+        <div class="row dark large-columns-3 mb-0">
+
+            <!-- Column 1: Công ty -->
+            <div class="col pb-0 widget widget_text">
+                <span class="widget-title">HAPANEST</span>
+                <div class="is-divider small"></div>
+                <div class="textwidget">
+                    <p>Chúng tôi chuyên cung cấp:</p>
+                    <ul>
+                        <li>Sản phẩm yến cao cấp</li>
+                        <li>Đảm bảo chất lượng cao, chính hãng, an toàn</li>
+                        <li>Dịch vụ giao hàng tận nơi</li>
+                    </ul>
                 </div>
+            </div>
+
+            <!-- Column 2: Thông tin liên hệ -->
+            <div class="col pb-0 widget widget_text">
+                <span class="widget-title">THÔNG TIN LIÊN HỆ</span>
+                <div class="is-divider small"></div>
+                <div class="textwidget">
+                    <p><i class="fa fa-building-o"></i> Công ty TNHH HAPANEST</p>
+                    <p><i class="fa fa-map-marker"></i> 123 Demo Street, P.demo, Q. Demo, TP.demo</p>
+                    <p><i class="fa fa-envelope"></i> Email: contact@hapanest.com</p>
+                    <p><i class="fa fa-phone"></i> Điện thoại: 0123 456 789</p>
+                    <p><i class="fa fa-mobile"></i> Hotline: 0987 654 321</p>
+                </div>
+            </div>
+
+            <!-- Column 3: Fanpage Facebook -->
+            <div class="col pb-0 widget widget_text">
+                <span class="widget-title">FANPAGE FACEBOOK</span>
+                <div class="is-divider small"></div>
+                <div class="textwidget">
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous" 
+                        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0"></script>
+                    <div class="fb-page" 
+                         data-href="https://www.facebook.com/facebook" 
+                         data-width="340" 
+                         data-hide-cover="false"
+                         data-show-facepile="true"
+                         data-small-header="false"></div>
+                </div>
+            </div>
+
         </div>
-        <a href="#top"
-                class="back-to-top button icon invert plain fixed bottom z-1 is-outline round hide-for-medium"
-                id="top-link"><i class="icon-angle-up"></i></a>
+    </div>
+
+    <!-- FOOTER 2: Copyright -->
+    <div class="absolute-footer dark medium-text-center small-text-center">
+        <div class="container clearfix">
+            <div class="footer-primary pull-left">
+                <div class="copyright-footer">
+                    © 2025 HAPANEST. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <a href="#top" 
+       class="back-to-top button icon invert plain fixed bottom z-1 is-outline round hide-for-medium"
+       id="top-link">
+       <i class="fa fa-angle-up"></i>
+    </a>
 
 </footer>
 
